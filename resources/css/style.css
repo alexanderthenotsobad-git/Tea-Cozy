@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica,sans-serif;
+  opacity:0.9;
+  text-align: center;
+  font-size: 22px;
+  margin:0;
+}
+
+a {
+  color:seashell;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/** HEADER **/
+
+header {
+  border-bottom: 1px solid seashell ;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 69px;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav span  {
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+/** MISSION STYLE **/
+
+main {
+  margin: auto;
+  justify-content: center;
+  width: 1200px;
+  padding-top: 69px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.mission-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 600px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.headline {
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: black;
+  }
+
+/** FEATURED PRODUCTS **/
+
+.featured {
+  align-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.inventory {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+width: 300px;
+margin: 10px 10px 10px 10px;
+}
+
+.product img {
+  height: 200px;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+/** LOCATION **/
+
+.locations {
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+.location-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  background-color: black;
+  margin: 15px 40px 0 0;
+  width: 300px;
+  opacity: 1;
+}
+
+/** FOOTER **/
+
+footer {
+    background-color: black;
+    color:seashell;
+    font-family: Helvetica,sans-serif;
+    opacity:0.9;
+    text-align: left;
+    padding-left: 20px;
+  }
